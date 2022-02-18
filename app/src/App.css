@@ -1,0 +1,92 @@
+/* Estilização da página*/
+
+.container{
+  background-color: #e2dfdf;
+  height: max-content;
+}
+
+.parteSuperior{
+  background-image: linear-gradient(90deg, #295872 0%, #3EA1DB 100%);
+  color:#fff;
+  font-size: 50px;
+  height: 95px;
+  padding: 40px 270px 10px 240px;
+}
+
+.cadastro{
+  padding: 10px 20px ;
+  margin: 40px 100px 40px 240px;
+  background-color: #e2dfdf;
+}
+
+.titulo{
+  text-align: left;
+  margin-bottom: 40px;
+  font-family: monospace;
+  color: #21495f;
+  font-size: 30px;
+}
+
+.resgistro{
+  margin: 10px;
+}
+
+input{
+  height: 40px;
+  border: 0;
+  border-radius: 4px;
+}
+
+input::placeholder{
+  padding-left: 5px;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.inserir{
+  padding-bottom: 50px;
+  height: 40px;
+}
+
+
+.butao{
+  padding: 2px 5px;
+}
+
+button {
+  height: 30px;
+  border-radius: 5px;
+  border-color: #c7c6c6;;
+  color: #414040;
+}
+
+
+/*Estilização lista dos produtos*/
+
+.listatitulo{
+  text-align: left;
+  margin-top: 40px;
+  font-family: monospace;
+  color: #1a3b4d;
+  font-size: 30px;
+}
+
+.texto{
+  text-align: left;
+  margin-top: 20px;
+  font-family: monospace;
+  color: #1a3b4d;
+  font-size: 20px;
+  width: 600px;
+}
+
+.listaprodutos{
+  margin: 0px 100px 40px 260px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: #6d6c6c;
+  background-color: white;
+  padding: 20px 0 20px 10px;
+  border-radius: 5px;
+  width: 600px;
+}
